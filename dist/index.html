@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Beautiful Card</title>
 </head>
-<body class="bg-slate-900">
-    <h1 class="text-white text-4xl">test</h1>
+<body class="bg-slate-900 flex items-center justify-center h-screen">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg bg-white">
+        <img class="w-full" src="ocean.jpg" alt="Bridge">
+        <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Beautiful Bridge</div>
+            <p class="text-gray-700 text-base">
+                This is a stunning bridge surrounded by serene waters, a symbol of modern engineering and beauty.
+            </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#architecture</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#bridge</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#design</span>
+        </div>
+    </div>
 </body>
 </html>
